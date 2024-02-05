@@ -15,5 +15,8 @@ jobs:
       with:
         distribution: 'corretto'
         java-version: 17
-
+    - name: Restore dependencies
+      run: java restore
+    - name: Build
+      run: java build --configuration Release
       
