@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LocalhostSaksonApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(LocalhostSaksonApplication.class, args);
     }
 
